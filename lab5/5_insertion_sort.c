@@ -13,11 +13,20 @@ void insertionSort(int arr[], int n) {
 }
 
 int main() {
-    int arr[] = {12, 11, 13, 5, 6};
+    int arr[] = {34, 7, 12, 90, 51};
     int n = sizeof(arr) / sizeof(arr[0]);
-    insertionSort(arr, n);
-    for (int i = 0; i < n; i++) {
+
+    printf("Unsorted Array: ");
+    for (int i = 0; i < n; i++)
         printf("%d ", arr[i]);
-    }
+    printf("\n");
+
+    insertionSort(arr, n);
+
+    printf("Sorted Array: ");
+    for (int i = 0; i < n; i++)
+        printf("%d ", arr[i]);
+    printf("\n");
+
     return 0;
 }
