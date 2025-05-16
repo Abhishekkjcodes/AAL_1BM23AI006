@@ -50,7 +50,9 @@ void solveNQ(int n) {
 }
 
 int main() {
-  int n = 4;
+  int n;
+  printf("enter number of rows or columns");
+  scanf("%d",&n);
   solveNQ(n);
   return 0;
 }
