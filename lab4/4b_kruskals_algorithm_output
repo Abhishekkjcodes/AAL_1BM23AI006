@@ -1,0 +1,5 @@
+Edges in the Minimum Spanning Tree:
+2 - 3, Weight: 4
+0 - 3, Weight: 5
+0 - 1, Weight: 10
+Total weight of MST: 19
