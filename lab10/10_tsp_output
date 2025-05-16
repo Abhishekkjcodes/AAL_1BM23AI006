@@ -1,0 +1,22 @@
+Enter the number of cities: 4
+Enter the distances from city 1 to all other cities:
+10
+20
+5
+15
+Enter the distances from city 2 to all other cities:
+10
+10
+30
+25
+Enter the distances from city 3 to all other cities:
+15
+20
+15
+5
+Enter the distances from city 4 to all other cities:
+5
+20
+25
+10
+Minimum cost: 40
